@@ -74,6 +74,11 @@ let AM_square = {
 		this.rotate = whatSetup
 	},
 	//---------------------------------------
+	setSize(whatSize,whatPX){					//устанавливает размер и измерения
+		this.size = whatSetup
+		this.sizeFormat = whatPX
+	},
+	//---------------------------------------
 	getCssForElem(whatCss){						//стиль в 1 строку
 		let temp = ''
 		for (let i in whatCss){
@@ -111,5 +116,6 @@ AM_square.setClick('back','alert("back")')
 AM_square.setClick('left','alert("left")')
 AM_square.setClick('right','alert("right")')
 AM_square.setClick('front','alert("front")')
+setSize(10, 'em')
 AM_square.addSquare(document.body)
 
