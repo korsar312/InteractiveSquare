@@ -75,7 +75,7 @@ let AM_square = {
 	},
 	//---------------------------------------
 	setSize(whatSize,whatPX){					//устанавливает размер и измерения
-		this.size = whatSetup
+		this.size = whatSize
 		this.sizeFormat = whatPX
 	},
 	//---------------------------------------
@@ -116,6 +116,6 @@ AM_square.setClick('back','alert("back")')
 AM_square.setClick('left','alert("left")')
 AM_square.setClick('right','alert("right")')
 AM_square.setClick('front','alert("front")')
-setSize(10, 'em')
+AM_square.setSize(10, 'em')
 AM_square.addSquare(document.body)
 
