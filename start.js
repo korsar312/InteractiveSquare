@@ -2,30 +2,30 @@ let AM_square = {
 	//---------------------------------------
 	style: {
 		perspective: {
-			perspective: '1000px',
+			['perspective']: '1000px',
 		},
 		wrapper: {
-			transform: 'rotateY(0deg)',
-			transition: 'ease-out 0.5s',			
+			['transform']: 'rotateY(0deg)',
+			['transition']: 'ease-out 0.5s',			
 		},
 		side: {
-			position: 'absolute',
-			border: '2px solid white',
-			opacity: '.9',
+			['position']: 'absolute',
+			['border']: '2px solid white',
+			['opacity']: '.9',
 		},
 		left: {
-			background: 'red;',
+			['background']: 'red;',
 		},
 		right: {
-			background: 'blue;',
+			['background']: 'blue;',
 		},
 		front: {
 
-			background: 'green;',
+			['background']: 'green;',
 		},
 		back: {
 
-			background: 'black',
+			['background']: 'black',
 		},
 	},
 	clickFunc: {
